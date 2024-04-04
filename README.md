@@ -28,4 +28,10 @@ The duration flow didn't emerge as a significant feature, contrary to my initial
 The implementation code is available in the `Classification_of_Attack_Types.py` file, and the confusion matrix figure is provided in `xgboost_confusion_matrix.png`.
 
 ## Conclusion
-There i
+In conclusion, this analysis delved into the CICIDS2017 dataset using EDA and machine learning models. I discovered significant insights into the dataset's features and the classification of attack types.
+
+The initial EDA revealed essential insights into the dataset's structure and distributions. Subsequently, I identified significant features for classifying attacks versus non-attacks using a DT model. Additionally, I applied k-means clustering to group various attack types into four clusters, facilitating a more manageable classification approach. Utilizing XGBoost, I classified attacks into these clusters, achieving high precision and recall scores.
+
+However, there is much more to explore in this dataset. Future investigations could include exploring the distribution of significant features obtained from the classification models. Furthermore, examining the merged data with the TrafficLabelling_ directory could provide additional insights into network traffic patterns and attack behaviors.
+
+The code and visualizations generated during this analysis are available in the corresponding files. Moving forward, further exploration of the dataset promises to uncover more valuable insights into network security and attack detection.
