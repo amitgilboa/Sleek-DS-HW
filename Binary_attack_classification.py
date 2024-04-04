@@ -16,7 +16,7 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-merged_df2 = pd.read_pickle("sleek HW/data/merged_df2.pkl")
+merged_df2 = pd.read_pickle("merged_df2.pkl")
 
 # We saw that the data is imbalanced therefore I will Subset the data to Friday afternoon and Wednesday none because most of the attacks happened there
 merged_df2_filter = merged_df2[((merged_df2['Day'] == 'Friday') & (merged_df2['Time'] == 'Afternoon')) | ((merged_df2['Day'] == 'Wednesday') & (merged_df2['Time'] == 'None'))]
