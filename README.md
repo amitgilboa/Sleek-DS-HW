@@ -13,10 +13,10 @@ The code appears in Binary attack classification.py file and the confusion matri
 Second, because there are many types of attacks I tried to merge them to 4 clusters using k-means (k=4). 
 I got that the attacks are divided to the following 4 clusters:
 
-cluster 0 - PortScan, Infiltration, Web Attack Brute Force, Web Attack XSS, Web Attack Sql Injection, SSH-Patator 
-cluster 1 - DoS Slowhttptest, DoS Hulk, DoS GoldenEye 
-cluster 2 - DDoS, Bot 
-cluster 3 - FTP-Patator, DoS slowloris, Heartbleed 
+cluster (0) - PortScan, Infiltration, Web Attack Brute Force, Web Attack XSS, Web Attack Sql Injection, SSH-Patator. 
+cluster (1) - DoS Slowhttptest, DoS Hulk, DoS GoldenEye.
+cluster (2) - DDoS, Bot. 
+cluster (3) - FTP-Patator, DoS slowloris, Heartbleed. 
 The code appear in Label kmeans.py file.
 
 Last, we will use the new clusters to classify between these 4 clusters of atteck using our data
