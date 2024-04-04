@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score
 
-merged_df2 = pd.read_pickle("sleek HW/data/merged_df2.pkl")
+merged_df2 = pd.read_pickle("merged_df2.pkl")
 
 # I remove BENIGN labels to classify differnet types of attacks
 merged_df2_filter = merged_df2[merged_df2['Label']!='BENIGN']
