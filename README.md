@@ -17,7 +17,7 @@ K-means clustering with k=4 was employed to group various attack types into four
 - **Cluster 1**: DoS Slowhttptest, DoS Hulk, DoS GoldenEye.
 - **Cluster 2**: DDoS, Bot. 
 - **Cluster 3**: FTP-Patator, DoS slowloris, Heartbleed.
-- 
+
 The implementation code can be found in the `Label_kmeans.py` file.
 
 ## Classification of Attack Types Using XGBoost (insight 3)
