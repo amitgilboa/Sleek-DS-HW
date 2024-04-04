@@ -17,6 +17,7 @@ cluster (0) - PortScan, Infiltration, Web Attack Brute Force, Web Attack XSS, We
 cluster (1) - DoS Slowhttptest, DoS Hulk, DoS GoldenEye.
 cluster (2) - DDoS, Bot. 
 cluster (3) - FTP-Patator, DoS slowloris, Heartbleed. 
+
 The code appear in Label kmeans.py file.
 
 Last, we will use the new clusters to classify between these 4 clusters of atteck using our data
