@@ -35,3 +35,9 @@ The initial EDA revealed essential insights into the dataset's structure and dis
 However, there is much more to explore in this dataset. Future investigations could include exploring the distribution of significant features obtained from the classification models. Furthermore, examining the merged data with the TrafficLabelling_ directory could provide additional insights into network traffic patterns and attack behaviors.
 
 The code and visualizations generated during this analysis are available in the corresponding files. Moving forward, further exploration of the dataset promises to uncover more valuable insights into network security and attack detection.
+
+___________________________________________________________________________________________________________________________________________
+
+* The final dataset, merged_df2, used for running the models has been saved as a pickle file. You can download it from the following link: https://drive.google.com/file/d/1RQiO5IXi4yeZ_mScixlBq4rC8xk2oyqj/view?usp=sharing 
+
+
